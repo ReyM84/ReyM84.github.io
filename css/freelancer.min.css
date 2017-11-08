@@ -52,7 +52,6 @@ hr.style5:before {  /* Not really supposed to work, but does */
     margin-left: 400px
 }
 
-.contactbtn {
     margin-left: 120px;
 }
 
@@ -60,13 +59,42 @@ hr.style5:before {  /* Not really supposed to work, but does */
     margin-left: 130px;
     color:rgba(72, 22, 22, 0.73); 
 }
+@media screen and (min-width: 768px) {
+    .freelance {
+      margin-left: 420px;
+    }
+  }
 
+@media screen and (max-width: 760px) {
+    .freelance {
+       margin-left: 60px !important;
+    }
+}  
 .freelance {
     font-size: 8px;
-    margin-left: 400px;
+   
 }
 
-.contactformlink {
-    font-size: 10px;
-    margin-left: 200px;
+.contactsec {
+    color: #562828 ;
+    height: 200px;
+    margin-top: 30px;
+    
 }
+.contactcla {
+    text-decoration: underline;
+}
+
+ @media screen and (min-width: 768px) {
+   .contactinfo {
+     margin-left: 420px;
+   }
+ }
+.contactinfo {
+    text-align: left !important;
+}
+@media screen and (min-width: 768px) {
+   .fontcont {
+     margin-left: 520px !important;
+   }
+ }
